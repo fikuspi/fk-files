@@ -1,7 +1,6 @@
 install:
-	mkdir -p $(DESTDIR)/usr/bin
-	cp fk_files.py $(DESTDIR)/usr/bin/fk-files
-	chmod +x $(DESTDIR)/usr/bin/fk-files
+	pyinstaller --onefile --windowed --name fk-files main.py
+	cp dist/fk-files $(DESTDIR)/usr/bin/fk-files
 	mkdir -p $(DESTDIR)/usr/share/applications
 	cp fk-files.desktop $(DESTDIR)/usr/share/applications/
 
