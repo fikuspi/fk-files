@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=FK-Files
+Comment=Modern File Manager
+Exec=fk-files
+Icon=system-file-manager
+Terminal=false
+Type=Application
+Categories=Utility;FileManager;
