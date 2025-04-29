@@ -1,6 +1,7 @@
 # FK-Files
 FK-Files - File Manager for Unix-like distro, create for FikusPI project. Vim and Norton Commander hybrid. Make for FikusTools project.
 Main developer: Fedor Shimorov
+
 Fk-Files site:
 https://sites.google.com/view/fikuspi/fk-files
 
